@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEST PRODUCT PAGE</title>
+  </head>
+  <body>
+    <h1>Test warehouse page</h1>
+    <p>
+      Images are programatically generated. An image will only be returned if it
+      exists in the database. There are 5 entries you can search for. An image
+      is generated upon request provided that it exists as previously mentioned,
+      then it is stored in the output folder and by default will be deleted
+      after two minutes.
+    </p>
+    <p>
+      SEARCHING FOR A BOX NUMBER NOT LISTED IN THE LIST BELOW WILL NOT WORK. THE
+      IMAGE IS ONLY GENERATED WHEN THE BOX INFO IS STORED IN SQL.
+    </p>
+
+    E02 D14 C11 A12 A13
+    <a href="http://localhost/warehouse/E02.png">hel</a>
+
+    <p>
+      Simply type in after the base url "/warehouse/insertbinnumberhere" and you
+      will be redirected to a png image. please wait a few seconds for the image
+      to load.
+    </p>
+
+    in the case that you want to recreate the database, just enter the code
+    titled "sqlcode" into sqlworkbench
+
+    <p>
+      if you want to loop over an array to add to db you can use the code below
+    </p>
+
+    <p>
+      const data = [ { id: 1, binNo: "A13", Xcoordinates: 1840, Ycoordinates:
+      160, }, { id: 2, binNo: "C11", Xcoordinates: 1650, Ycoordinates: 860, }, {
+      id: 3, binNo: "D14", Xcoordinates: 1835, Ycoordinates: 1500, }, { id: 4,
+      binNo: "E02", Xcoordinates: 580, Ycoordinates: 1820, }, { id: 5, binNo:
+      "E10", Xcoordinates: 1500, Ycoordinates: 1820, }, ];
+    </p>
+  </body>
+</html>
